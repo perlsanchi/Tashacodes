@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head><title>Sign Up - Step 2</title></head>
+<body>
+<h2>Sign Up - Step 2</h2>
+<form method="POST" action="/signup_step2">
+    <label>Address:</label><br>
+    <input type="text" name="address" required><br><br>
+    <label>City:</label><br>
+    <input type="text" name="city" required><br><br>
+    <input type="submit" value="Complete Signup">
+</form>
+</body>
+</html>
