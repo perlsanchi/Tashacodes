@@ -66,7 +66,7 @@ def signup_step2():
             session.clear()
             return f"User {username} created successfully!"
         except sqlite3.IntegrityError:
-            return "Username or email already exists."
+            return "Username or email already exists. Please use another id"
         finally:
             conn.close()
     return render_template('signup_step2.html')
